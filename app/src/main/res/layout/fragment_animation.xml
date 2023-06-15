@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.61"
+        android:background="@color/brown">
+
+        <ImageView
+            android:id="@+id/burger_up"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:translationY="-200dp"
+            app:srcCompat="@drawable/burger" />
+
+
+
+        <ImageView
+            android:id="@+id/cheese"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:translationY="-120dp"
+            app:srcCompat="@drawable/cheese" />
+
+
+
+        <ImageView
+            android:id="@+id/meat"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:translationY="40dp"
+            app:srcCompat="@drawable/burger_meat" />
+
+        <ImageView
+            android:id="@+id/lettuce"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lettuce"
+            android:translationY="120dp" />
+
+        <ImageView
+            android:id="@+id/burger_down"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/burger"
+            android:translationY="200dp" />
+
+    </FrameLayout>
+</LinearLayout>
